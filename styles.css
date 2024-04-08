@@ -1,10 +1,7 @@
 :root {
     --gray-00: #ffffff;
     --gray-05: #f5f6f7;
-    --gray-15: #d0d0d5;
-    --gray-75: #3b3b4f;
-    --gray-85: #1b1b32;
-    --gray-90: #0a0a23;
+    --lilac: #5f5fa6;
     --blue-50: #198eee;
     --error: #a94442;
     --danger-color: #850000;
@@ -22,7 +19,7 @@
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-color: var(--gray-85);
+    background-color: var(--lilac);
     color: var(--gray-05);
   }
   
@@ -83,8 +80,8 @@
     cursor: pointer;
     margin-top: 15px;
     text-decoration: none;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
+    background-image: linear-gradient(#fe4cb1, #d00e9c);
+    border: 3px solid #fe32bd;
     padding: 10px 16px;
     font-size: 23px;
     width: 100%;
@@ -137,3 +134,24 @@
       max-width: 420px;
     }
   }
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2em;
+    position: fixed;
+    color: var(--light-grey);
+  }
+  
+  footer a {
+    color: #50cfd6;
+  }
+  
+  footer a:hover {
+    color: #fe4c7b;
+    font-size: 1.5em;
+  }
+  
