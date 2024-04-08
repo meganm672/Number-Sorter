@@ -1,7 +1,6 @@
 # Number-Sorter
 
-
-
+ In this number sorter project, I learned how to implement and visualize different sorting algorithms like bubble sort, selection sort, and insertion sort – all with JavaScript.
 
 ## Deployed Site On GitHub Pages!
 [Number Sorter](https://meganm672.github.io/Number-Sorter/)
